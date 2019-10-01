@@ -10,4 +10,12 @@ $ssh-keygen -t rsa -C "email"
 $ git config --global user.name "Name"
 $ git config --global user.email "email"
 
+Создание и клонирование репозитория
+1)Создаем репозиторий на https://github.com/
+2)Копируем SSH  на кнопке "Clone or download" => "Clone with SSH"
+3)В Git Bash переходим в нужную дирректорию (cd /c/data/temp и т.д. {$ cd /d/YandexDisk/coding/github})
+4)$git clone *SSH, скопированный в п.2 вставляем при помощи shift+insert* => yes => password
+
+
+
 
