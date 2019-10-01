@@ -1,0 +1,13 @@
+Настройка Git Bash
+
+Генерация пары SSH ключей:
+$ssh-keygen -t rsa -C "email"
+выбираем путь - 
+//Enter file in which to save the key (/c/Users/user/.ssh/id_rsa):
+и вводим password, который будет использоваться далее почти для всех действий. 
+
+Настройка имени пользователя и email:
+$ git config --global user.name "Name"
+$ git config --global user.email "email"
+
+
